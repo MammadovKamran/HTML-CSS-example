@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html {
+  background-color: #f5f5ff;
+}
+.basliq {
+  padding: 5px 10px 5px 10px;
+  margin-top: 0;
+  text-align: center;
+}
+.basliq > h3 {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.basliq > h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.basliq > h4 {
+  font-size: 20px;
+}
+.line {
+  height: 5px;
+  width: 120px;
+  margin: 30px auto 0;
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  background: linear-gradient(to right, #e24997, #2d2ed4);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.esas {
+  height: 600px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.StartUp {
+  float: left;
+  width: 30%;
+  height: 500px;
+  margin: 0 15px 15px 15px;
+  padding: 48px 64px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.Popular {
+  float: left;
+  width: 30%;
+  height: 530px;
+  margin: 0 15px 15px 15px;
+  padding: 48px 64px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.Enterprise {
+  float: left;
+  width: 30%;
+  height: 500px;
+  margin: 0 15px 15px 15px;
+  padding: 48px 64px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+h2 {
+  font-size: 20px;
+  color: #212529;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+h5 {
+  font-size: 14px;
+  color: #212529;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.line1 {
+  width: 80px;
+  height: 4px;
+  background-color: #3f43fd;
+}
+.StartUp > h3 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  margin-top: 10px;
+  background: -webkit-linear-gradient(#e24997, #2d2ed4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.StartUp > p {
+  font-size: 16px;
+  padding: 10px;
+  color: #212529;
+}
+.green {
+  font-size: 16px;
+  color: #2ecc71;
+  font-weight: 500;
+}
+.fa-times {
+  font-size: 16px;
+  color: #E74C3C;
+  font-weight: 500;
+}
+.StartUp > button{
+    font-size: 16px;
+    color: #fff;
+    background-color: #198754;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    margin: 20px 15px;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.StartUp > button:hover{
+    background-color: #197C54;
+   
+}
+ /* !Popular */
+ span{
+    font-size: 16px;
+    color: #fff;
+    background-color: #29B866;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.Popular > h2{
+    margin-top: 20px;
+}
+.Popular > h3 {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(#e24997, #2d2ed4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .Popular > p {
+    font-size: 16px;
+    padding: 10px;
+    color: #212529;
+  }
+  
+  .Popular > button{
+      font-size: 16px;
+      color: #fff;
+      background-color: #FFC107;
+      padding: 12px;
+      border: none;
+      border-radius: 3px;
+      margin: 20px 15px;
+      cursor: pointer;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+  }
+  .Popular > button:hover{
+      background-color: #FFD400;
+  }
+  /* !Enterprise */
+  .Enterprise > h3 {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(#e24997, #2d2ed4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .Enterprise > p {
+    font-size: 16px;
+    padding: 10px;
+    color: #212529;
+  }
+  
+  .Enterprise > button{
+      font-size: 16px;
+      color: #fff;
+      background-color: #0DCAF0;
+      padding: 12px;
+      border: none;
+      border-radius: 3px;
+      margin: 20px 15px;
+      cursor: pointer;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+  }
+  .Enterprise > button:hover{
+      background-color: #76CAF0;
+     
+  }
